@@ -52,7 +52,9 @@
             }
 
             async function createImageBlob(url) {
-                const response = await fetch(url);
+                const response = await fetch(url, {
+  mode: 'no-cors' // 'cors' by default
+});
                 return await response.blob();
             }
 
