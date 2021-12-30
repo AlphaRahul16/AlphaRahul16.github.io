@@ -8,9 +8,9 @@
     <body>
         <div id="container">
             <img
-                src="https://i.picsum.photos/id/529/200/300.jpg?hmac=WqdWbOIAJ1H2q4r92Fc4KXM--xvRadidXmV5P2R1rDg"
-                width="80"
-                height="80"
+                src="https://pngimg.com/uploads/electronic_cigarette/electronic_cigarette_PNG32.png"
+                width="100"
+                height="100"
             />
             <p>Copy, Paste Image</p>
         </div>
@@ -61,7 +61,7 @@
                     if (navigator.clipboard && navigator.clipboard.write) {
                         const textBlob = createTextBlob("Copy，Image");
                         const imageBlob = await createImageBlob(
-                            "https://i.picsum.photos/id/529/200/300.jpg?hmac=WqdWbOIAJ1H2q4r92Fc4KXM--xvRadidXmV5P2R1rDg"
+                            "https://pngimg.com/uploads/electronic_cigarette/electronic_cigarette_PNG32.png"
                         );
                         try {
                             const item = new ClipboardItem({
